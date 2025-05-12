@@ -1,5 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 const click = () => {
   console.log("Cliquei aqui");
@@ -7,7 +8,8 @@ const click = () => {
 export default function Home() {
   return (
     <div className="">
-      <Button onClick={click} size="">
+      <Input />
+      <Button onClick={click} size="xs">
         Primary
       </Button>
       <Button onClick={click} variant="secondary">
